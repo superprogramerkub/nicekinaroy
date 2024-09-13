@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/promax.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
 </head>
+<style>
+  body {
+    background: url('img/seanaja.gif') no-repeat center center fixed; 
+    background-size: cover;
+    color: black; /* เปลี่ยนสีข้อความเป็นขาวเพื่อให้เห็นชัด */
+  }
+</style>
 <body>
     <header class="p-3 text-bg-dark">
         <div class="container">
@@ -17,11 +30,11 @@
             </a>
     
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="#" class="nav-link px-2 text-secondary">หน้าแรก</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">อาหารไทย</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">อาหารญี่ปุ่น</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">อาหารเกาหลี</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">อาหารอินเดีย</a></li>
+              <li><a href="index.html" class="nav-link px-2 text-white">หน้าแรก</a></li>
+              <li><a href="page2.html" class="nav-link px-2 text-warning">อาหารไทย</a></li>
+              <li><a href="page3.html" class="nav-link px-2 text-white">อาหารญี่ปุ่น</a></li>
+              <li><a href="page4.html" class="nav-link px-2 text-white">อาหารเกาหลี</a></li>
+              <li><a href="page5.html" class="nav-link px-2 text-white">คาเฟ่</a></li>
             </ul>
 
             <div class="text-end">
@@ -31,11 +44,92 @@
           </div>
         </div>
       </header>
-      <center><div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
-        <div class="col-lg-6 px-0">
-          <h1 class="display-4 fst-italic">อาหารไทย</h1>
-          <p class="lead my-3">ประเภทอาหารคาว และอาหารรสจัด และเรียบง่ายตามสไตล์ไทยแลนด์</p>
+      <center>
+        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary" style="background-image: url(''); background-size: cover; background-position: center; background-repeat: no-repeat;">
+          <div class="col-lg-6 px-0">
+            <h1 class="display-4 ">อาหารไทย</h1>
+            <p class="lead my-3">ประเภทอาหารคาว และอาหารรสจัด อาหารพื้นเมืองตามภาคต่างๆ และเรียบง่ายตามสไตล์ไทยแลนด์</p>
+          </div>
         </div>
-      </div></center>
+      </center>
+      
+      <div data-aos="flip-up">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="img/2022-08-29.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6 text-center">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Samrab Lao Restaurant</h1>
+          <p class="lead"> สำรับลาว สระบุรี พิกัดร้าน : ร้านอยู่เส้นบ้านกล้วย-สะพานดำ เยื้องๆ ทางเข้าศูนย์ราชการใหม่ ร้านอาหารบรรยากาศสบายๆ ริมแม่น้ำป่าสัก มาพร้อมกับเมนูอาหารอีสานแบบต้นฉบับรสชาติต้นตำรับบอกเลยว่าแซ่บมากกก เมนูที่ร้านมีทั้งส้มตำ จิ้มจุ่ม และเมนูตามฤดูกาลอีกมากมาย!</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-center">
+            <a href="https://www.facebook.com/sumrublaos/?locale=th_TH" class="btn btn-primary btn-lg px-4" role="button">ไปที่ร้าน</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div data-aos="flip-up">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="img/1683020631_08a885857395f4a887b2f851d46bab6b.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6 text-center">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">ราดหน้าเลี่ยวตั้งไล้</h1>
+          <p class="lead"> ราดหน้าเลี่ยวตั้งไล้ : ตลาดสุขุมมาลล์ อำเภอเมืองสระบุรี  ราดหน้าชื่อดังในเมืองสระบุรีเลยค่ะ ทางร้านขายเมนูราดหน้าเส้นต่าง ๆ ไม่ว่าจะหมี่กรอบ เส้นหมี่หรือเส้นใหญ่กับหมูนุ่ม ๆ นอกจากราดหน้ารสกลมกล่อมแล้ว ผัดซีอิ๊วของทางร้านก็อร่อยและขายดีไม่แพ้กัน และยังมีเกี๊ยวเปล่า ๆ สั่งมากินคู่กันก็อร่อยคูณสองไปเลย!!</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-center">
+            <a href="https://www.facebook.com/Liewtunglike/?locale=th_TH" class="btn btn-primary btn-lg px-4" role="button">ไปที่ร้าน</a>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+      <div data-aos="flip-up">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="img/1642591001_d97a40b18856210710d86dd9a31cb7ce.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6 text-center">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Mint River&Restaurant</h1>
+          <p class="lead">Mint River&Restaurant พิกัดร้าน : 124 ถนนเทศบาล5 ตำบลปากเพรียว "บรรยากาศดี อาหารอร่อย มีดนตรีสดทุกวัน" ร้านอาหารบรรยากาศริมน้ำอีกหนึง่ร้านที่ไม่ควรพลาดค่ะ สำหรับที่นี่ต้องบอกเลยว่ามีอาหารให้เลือกแบบหลากหลายมากๆ ทั้งซีฟู้ด อาหารไทย นานาชาติ ซึ่งแต่ละเมนูก็น่าทานสุดๆ แอบบอกว่าราคาเค้าดีมาก</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-center">
+            <a href="https://www.facebook.com/MintriverRestaurant/?locale=th_TH" class="btn btn-primary btn-lg px-4" role="button">ไปที่ร้าน</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-aos="flip-up">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="img/2020.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6 text-center">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">ร้านฝีมือแม่ สุขโยธิน สระบุรี</h1>
+            <p class="lead"> ร้านฝีมือแม่ สุขโยธิน สระบุรี พิกัดร้าน : หมู่บ้านมานิตย์ซิตี้ อำเภอเสาไห้ สำหรับร้านนี้ต้องบอกเลยว่าฝีมือแม่สมกับชื่อร้านมากๆ ค่ะ เมนูที่ร้านมีทั้งเมนูอาหารคาว-หวาน ให้เลือกทาน ซึ่งแต่ละเมนูก็มีความปราณีตแบบสุดๆ เรียกได้ว่าสวยจนไม่กล้าทานเลยละค่ะ และถ้าหากใครอยากมาทานที่ร้านนี้แนะนำให้โทรสั่งเมนูล้วงหน้าได้เลยค่ะ เพราะมาแล้วจะได้รอไม่นานนะคะ *ร้านปิดทุกวันพุธ</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-center">
+              <a href="https://www.facebook.com/p/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9D%E0%B8%B5%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B9%81%E0%B8%A1%E0%B9%88-%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B9%82%E0%B8%A2%E0%B8%98%E0%B8%B4%E0%B8%99-%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5-100063639817172/" class="btn btn-primary btn-lg px-4" role="button">ไปที่ร้าน</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <center></center><footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">หน้าแรก</a></li>
+          <li class="nav-item"><a href="page2.html" class="nav-link px-2 text-body-secondary">อาหารไทย</a></li>
+          <li class="nav-item"><a href="page3.html" class="nav-link px-2 text-body-secondary">อาหารญี่ปุ่น</a></li>
+          <li class="nav-item"><a href="page4.html" class="nav-link px-2 text-body-secondary">อาหารเกาหลี</a></li>
+          <li class="nav-item"><a href="page5.html" class="nav-link px-2 text-body-secondary">คาเฟ่</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© จัดทำโดย ปวเรศ บรรดาศักดิ์</p></center>
+        <center><p>ภาพนำเพื่อมาใช้เพื่อการศึกษาเท่านั้น</p></center>
+      </footer>
+      
+      
+
+      
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>
+

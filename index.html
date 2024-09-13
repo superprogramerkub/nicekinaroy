@@ -7,7 +7,21 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/promax.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="css/font.css">
 </head>
+<style>
+  body {
+    background: url('img/rainy.gif') no-repeat center center fixed; 
+    background-size: cover;
+    color: black; /* เปลี่ยนสีข้อความเป็นขาวเพื่อให้เห็นชัด */
+  }
+  
+</style>
 <body>
     <header class="p-3 text-bg-dark">
         <div class="container">
@@ -17,11 +31,11 @@
             </a>
     
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="#" class="nav-link px-2 text-secondary">หน้าแรก</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">อาหารไทย</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">อาหารญี่ปุ่น</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">อาหารเกาหลี</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">อาหารอินเดีย</a></li>
+              <li><a href="index.html" class="nav-link px-2 text-warning">หน้าแรก</a></li>
+              <li><a href="page2.html" class="nav-link px-2 text-white">อาหารไทย</a></li>
+              <li><a href="page3.html" class="nav-link px-2 text-white">อาหารญี่ปุ่น</a></li>
+              <li><a href="page4.html" class="nav-link px-2 text-white">อาหารเกาหลี</a></li>
+              <li><a href="page5.html" class="nav-link px-2 text-white">คาเฟ่</a></li>
             </ul>
 
             <div class="text-end">
@@ -78,15 +92,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-        <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3 py-3">
-            <h2 class="display-5">ร้านเด็ดที่แนะนำ</h2>
-            <p class="lead">Korea House Saraburi</p>
-            <center><img src="img/132948652_108063521191525_5388452690440929898_n.jpg" class="d-block w-30" alt="..."></center>
-          </div>
-          <div class="bg-body-tertiary shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-        </div>
+     
         
       </div>
       <div class="album py-5 bg-body-tertiary">
@@ -97,10 +103,10 @@
               <div class="card shadow-sm">
                 <img src="img/1651574475_395f51acc2144cd2dbe337a6f39c3214.jpg" class="d-block w-100" alt="...">
                 <div class="card-body">
-                  <p class="card-text">ร้านอาหารไทยในตำนาน ส.พาณิชย์ เกี๊ยวกรอบ 100ปี</p>
+                  <p class="card-text">ร้านอาหารไทย ส.พาณิชย์ เกี๊ยวกรอบ 100ปี</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <a href="https://www.ryoiireview.com/restaurant/view/15595" class="btn btn-primary btn-lg px-4" role="button">ไปที่ร้าน</a>
                     </div>
                     <small class="text-body-secondary">สระบุรี</small>
                   </div>
@@ -114,7 +120,7 @@
                   <p class="card-text">ร้านครัวบ้านสวนสาขา 1 ริมทางรถไฟ</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <a href="https://facebook.com/kruabansuan1/?locale=th_TH" class="btn btn-primary btn-lg px-4" role="button">ไปที่ร้าน</a>
                     </div>
                     <small class="text-body-secondary">สระบุรี</small>
                   </div>
@@ -125,26 +131,35 @@
               <div class="card shadow-sm">
                 <img src="img/1683019614_3505eb6274709060ad2a78a193dfb37b.jpg" alt="">
                 <div class="card-body">
-                  <p class="card-text">ร้านมหาจำเริญ ร้านอาหารที่ขายอาหารไทยหลากหลายไม่ว่าจะเป็นชุดแจ่วฮ้อนแซ่บนัว ชุดหมูกระทะ </p>
+                  <p class="card-text">ร้านมหาจำเริญ ร้านออาหารไทย </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <a href="https://www.facebook.com/Mahajamroen/?locale=th_TH" class="btn btn-primary btn-lg px-4" role="button">ไปที่ร้าน</a>
                     </div>
                     <small class="text-body-secondary">สระบุรี</small>
                   </div>
                 </div>
               </div>
             </div>
+            
+            
+            
             <center></center><footer class="py-3 my-4">
               <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">หน้าแรก</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">อาหารไทย</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">อาหารญี่ปุ่น</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">อาหารเกาหลี</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">อาหารอินเดีย</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">หน้าแรก</a></li>
+                <li class="nav-item"><a href="page2.html" class="nav-link px-2 text-body-secondary">อาหารไทย</a></li>
+                <li class="nav-item"><a href="page3.html" class="nav-link px-2 text-body-secondary">อาหารญี่ปุ่น</a></li>
+                <li class="nav-item"><a href="page4.html" class="nav-link px-2 text-body-secondary">อาหารเกาหลี</a></li>
+                <li class="nav-item"><a href="page5.html" class="nav-link px-2 text-body-secondary">คาเฟ่</a></li>
               </ul>
-              <p class="text-center text-body-secondary">© By Pawares Bandasak</p></center>
+              <p class="text-center text-body-secondary">© จัดทำโดย ปวเรศ บรรดาศักดิ์</p></center>
+              <center><p>ภาพนำเพื่อมาใช้เพื่อการศึกษาเท่านั้น</p></center>
             </footer>
+            
+            
+            <script>
+              AOS.init();
+            </script>
 </body>
 </html>
 
